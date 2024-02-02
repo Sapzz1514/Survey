@@ -1,0 +1,77 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>Feedback Survey</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1 id="title"><img class="logo" src="4565573-middle.png" alt="ipcLogo"> IPC Salem Cheruvakkal</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <form id="survey-form">
+        <div class="form-group">
+            <label id="name-label">
+                <p>Name</p>
+                <input placeholder="Enter your Name" required id="name" type="text">
+            </label>
+        </div>
+        <div class="form-group">
+            <label id="email-label">
+                <p>Email</p>
+                <input required placeholder="Enter your Email" type="email" name="" id="email">
+            </label>
+        </div>
+        <div class="form-group">
+            <label id="number-label">
+                <p>Age(optional)</p><input type="number" name="" placeholder="Enter your Age" id="number" min="13" max="100">
+            </label>
+        </div>
+        <!-- <div class="form-group">
+            <label id="role-option">
+                <p>What are the things you like most in this church?</p>
+                <select name="" id="dropdown">
+                    <option value="">Select Current Role</option>
+                    <option value="1">Ebgineer</option>
+                    <option value="2">idont knw</option>
+                </select>
+            </label>
+        </div> -->
+        <div class="form-group">
+            <p>Would you suggest this church to a friend?</p>
+            <label> <input value="definitely" type="radio" checked name="user-choice">Definitely</label>
+            <label> <input value="maybe" type="radio" name="user-choice">Maybe</label>
+            <label> <input value="not-sure" type="radio" name="user-choice">Not sure</label>
+        </div>
+        <div class="form-group">
+            <p>What are the aspects of this church that you enjoy the most?</p>
+            <label><input value="Worship" type="checkbox">Worship Services</label><br>
+            <label><input value="Sermons/Teachings" type="checkbox">Sermons/Teachings</label><br>
+            <label><input value="Community" type="checkbox">Community Involvement</label><br>
+            <label><input value="Music" type="checkbox">Music/Choir</label><br>
+            <label><input value="Outreach" type="checkbox">Outreach Programs</label><br>
+            <label><input value="Youth" type="checkbox">Youth/Children's Ministries</label><br>
+            <label><input value="Ambiance" type="checkbox">Ambiance</label><br>
+            <label><input value="Leadership" type="checkbox"> Leadership</label><br>
+            <label><input value="Spiritual" type="checkbox">Spiritual Growth Opportunities</label><br>
+            <label><input value="Prayer" type="checkbox">Prayer Support</label><br>
+            <label><input value="Technology" type="checkbox">Technology/Online Presence</label><br>
+            <label><input value="Mission" type="checkbox"> Mission and Values</label><br>
+            <label><input value="Other" type="checkbox">Other</label><br>
+        </div>
+        <div class="form-group">
+            <p class="comment">Any comments or suggestions?</p>
+            <textarea placeholder="Enter your comments here..." name="" id="comment-box" cols="30" rows="10"></textarea>
+        </div>
+        <div class="form-group">
+            <input type="submit" id="submit">
+        </div>
+    </form>
+</body>
+
+</html>
